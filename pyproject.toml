@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pycounts_ag"
+version = "0.1.0"
+description = "A package to count the number of words in a string."
+authors = ["Arnaud Gueulette"]
+license = "Proprietary"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
